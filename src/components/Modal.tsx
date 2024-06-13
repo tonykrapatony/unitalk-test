@@ -30,7 +30,7 @@ const CustomModal: FC<CustomModalProps> = ({ img, open, handleClose, alt }) => {
       aria-describedby="modal-modal-description"
     >
       <Box sx={style}>
-        <img src={img} alt="" />
+        <img src={img} alt={alt} />
       </Box>
     </Modal>
   )

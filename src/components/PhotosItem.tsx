@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react'
+import { FC, useState } from 'react'
 import { IPhoto } from '../types/types'
 import { Grid } from '@mui/material'
 import CustomModal from './Modal'

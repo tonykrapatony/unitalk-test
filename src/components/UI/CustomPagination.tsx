@@ -10,7 +10,7 @@ type BasicPaginationProps = {
 
 const BasicPagination: FC<BasicPaginationProps> = ({ total, setPage }) => {
 
-  const handleChange = (event: React.ChangeEvent<any>, page: number) => {
+  const handleChange = (_event: React.ChangeEvent<any>, page: number) => {
     setPage(page);
   };
 
